@@ -1,0 +1,25 @@
+{
+    "name": "MyCOI",
+    "description": "My Artwork Coins",
+    "image": "https:\/\/s3.amazonaws.com\/your-bucket\/images\/mynft.png",
+    "image_integrity": "sha256-7ew0eziEZIVD4qoTWb0YrElAuRG3b40SnEstyk=",
+    "properties": {
+        "simple_property": "My first artwork",
+        "rich_property": {
+            "name": "MyCoi",
+            "value": "001",
+            "display_value": "001",
+            "class": "emphasis",
+            "css": {
+                "color": "#ffffff",
+                "font-weight": "bold",
+                "text-decoration": "underline"
+            }
+        },
+        "array_property": {
+            "name": "Artwork Coins",
+            "value": [1, 2, 3, 4],
+            "class": "emphasis"
+        }
+    }
+}
